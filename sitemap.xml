@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://viladevedzic.com/</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://viladevedzic.com/images/hero.jpg</image:loc>
+      <image:title>Vila Devedzić Vrnjačka Banja – bazen i eksterijer</image:title>
+      <image:caption>Vila Devedzić – privatni smeštaj sa bazenom u Vrnjačkoj Banji, Srbija</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://viladevedzic.com/images/exterior.jpg</image:loc>
+      <image:title>Vila Devedzić – fasada historijske vile u Vrnjačkoj Banji</image:title>
+      <image:caption>Fasada Vile Devedzić, Proleterskih brigada 3, Vrnjačka Banja</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://viladevedzic.com/images/gallery1.jpg</image:loc>
+      <image:title>Otvoreni bazen Vila Devedzić Vrnjačka Banja</image:title>
+      <image:caption>Otvoreni bazen sa ležaljkama i suncobranima – Vila Devedzić</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://viladevedzic.com/images/gallery2.jpg</image:loc>
+      <image:title>Bazen i terasa – Vila Devedzić smeštaj Vrnjačka Banja</image:title>
+      <image:caption>Bazen i terasa Vile Devedzić u Vrnjačkoj Banji</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://viladevedzic.com/images/spa.jpg</image:loc>
+      <image:title>Wellness spa Vila Devedzić – sauna, jakuzi, masaže Vrnjačka Banja</image:title>
+      <image:caption>Wellness centar Vile Devedzić – sauna, jakuzi i masaže u Vrnjačkoj Banji</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://viladevedzic.com/images/room1.jpg</image:loc>
+      <image:title>Soba Vila Devedzić – dvokrevetna soba Vrnjačka Banja</image:title>
+      <image:caption>Standardna dvokrevetna soba, Vila Devedzić Vrnjačka Banja</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://viladevedzic.com/images/room5.jpg</image:loc>
+      <image:title>Četvorokrevetna soba Vila Devedzić – drugi nivo</image:title>
+      <image:caption>Četvorokrevetna soba na drugom nivou, Vila Devedzić Vrnjačka Banja</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://viladevedzic.com/images/sala.jpg</image:loc>
+      <image:title>Sala za proslave i eventi – Vila Devedzić Vrnjačka Banja</image:title>
+      <image:caption>Sala za proslave, team building i svečanosti – Vila Devedzić</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://viladevedzic.com/images/offroad.jpg</image:loc>
+      <image:title>Off-road ture Vila Devedzić Vrnjačka Banja</image:title>
+      <image:caption>Off-road avanture i quad vožnje u okolini Vrnjačke Banje</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://viladevedzic.com/images/domaca_kuhinja.jpg</image:loc>
+      <image:title>Domaća kuhinja Vila Devedzić Vrnjačka Banja</image:title>
+      <image:caption>Tradicionalna srpska domaća kuhinja u Vili Devedzić</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://viladevedzic.com/images/bar.jpg</image:loc>
+      <image:title>Bar Vila Devedzić – selekcija pića Vrnjačka Banja</image:title>
+      <image:caption>Bar sa selekcijom domaćih i stranih pića – Vila Devedzić</image:caption>
+    </image:image>
+  </url>
+</urlset>

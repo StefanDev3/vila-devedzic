@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp \"c:/Users/Stefan D/Downloads/Phone Link/20250605_120823.jpg\" \"c:/Users/Stefan D/Desktop/Vila/images/room_view.jpg\")",
+      "Bash(cp \"c:/Users/Stefan D/Downloads/Phone Link/20250605_120833.jpg\" \"c:/Users/Stefan D/Desktop/Vila/images/room_top.jpg\")",
+      "Bash(cp \"c:/Users/Stefan D/Downloads/Phone Link/20250605_120504.jpg\" \"c:/Users/Stefan D/Desktop/Vila/images/stairs.jpg\")",
+      "Bash(cp \"c:/Users/Stefan D/Downloads/Phone Link/20250605_121008.jpg\" \"c:/Users/Stefan D/Desktop/Vila/images/room5.jpg\")",
+      "Bash(cp \"c:/Users/Stefan D/Downloads/Phone Link/20250605_121026.jpg\" \"c:/Users/Stefan D/Desktop/Vila/images/room6.jpg\")",
+      "WebFetch(domain:nominatim.openstreetmap.org)",
+      "WebFetch(domain:developers.google.com)",
+      "WebFetch(domain:schema.org)",
+      "WebFetch(domain:web.dev)"
+    ]
+  }
+}
