@@ -1,26 +1,14 @@
 export default {
-  async fetch(request, env) {
-    const url = new URL(request.url);
-    let pathname = url.pathname;
+  async fetch(request, env, ctx) {
+    const { pathname } = new URL(request.url);
 
-    // Default to index.html for root
-    if (pathname === '/' || pathname === '') {
-      pathname = '/index.html';
-    }
+    let path = pathname === '/' ? '/index.html' : pathname;
 
     try {
-      // Try to fetch the requested file
-      const response = await env.ASSETS.fetch(request);
-
-      // If 404, serve index.html (for SPA routing)
-      if (response.status === 404 && !pathname.includes('.')) {
-        return await env.ASSETS.fetch(new Request(new URL('/index.html', url).toString(), request));
-      }
-
-      return response;
+      return await env.ASSETS.fetch(request.clone());
     } catch (error) {
-      // Fallback to index.html on error
-      return await env.ASSETS.fetch(new Request(new URL('/index.html', url).toString(), request));
+      // Fallback to index.html for SPA routing
+      return env.ASSETS.fetch(new Request(new URL('/index.html', request.url).toString(), request));
     }
   },
 };

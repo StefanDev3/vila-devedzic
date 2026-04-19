@@ -3,14 +3,10 @@ type = "javascript"
 main = "index.js"
 compatibility_date = "2024-01-01"
 
+[site]
+bucket = "."
+
 [env.production]
-route = "viladevedzic.com/*"
-zone_name = "viladevedzic.com"
-
-[[routes]]
-pattern = "viladevedzic.com/*"
-zone_name = "viladevedzic.com"
-
-[build]
-command = "echo 'Static site - no build needed'"
-cwd = "."
+routes = [
+  { pattern = "viladevedzic.com/*", zone_name = "viladevedzic.com" }
+]
