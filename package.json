@@ -1,0 +1,17 @@
+{
+  "name": "vila-devedzic",
+  "version": "1.0.0",
+  "description": "Vila Devedzić - Smeštaj, Wellness & Kuhinja u Vrnjačkoj Banji",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "keywords": ["vila", "vrnjacka-banja", "smeštaj", "wellness"],
+  "author": "Stefan Devedzic",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
