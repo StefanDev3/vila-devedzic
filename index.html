@@ -1414,30 +1414,30 @@
       <div class="form-row">
         <div class="form-group">
           <label>Ime i prezime</label>
-          <input type="text" placeholder="Ime i prezime" required />
+          <input type="text" name="Ime i prezime" placeholder="Ime i prezime" required />
         </div>
         <div class="form-group">
           <label>Telefon</label>
-          <input type="tel" placeholder="Telefon" />
+          <input type="tel" name="Telefon" placeholder="Telefon" />
         </div>
       </div>
       <div class="form-group">
         <label>Email adresa</label>
-        <input type="email" placeholder="Email adresa" required />
+        <input type="email" name="Email adresa" placeholder="Email adresa" required />
       </div>
       <div class="form-row">
         <div class="form-group">
           <label>Datum dolaska</label>
-          <input type="date" id="datum-dolaska" min="2026-01-01" max="2030-12-31" required />
+          <input type="date" id="datum-dolaska" name="Datum dolaska" min="2026-01-01" max="2030-12-31" required />
         </div>
         <div class="form-group">
           <label>Datum odlaska</label>
-          <input type="date" id="datum-odlaska" min="2026-01-01" max="2030-12-31" required />
+          <input type="date" id="datum-odlaska" name="Datum odlaska" min="2026-01-01" max="2030-12-31" required />
         </div>
       </div>
       <div class="form-group">
         <label>Izbor sobe</label>
-        <select required>
+        <select name="Izbor sobe" required>
           <option value="" disabled selected>Izaberite sobu</option>
           <optgroup label="Sobe">
             <option>Standardna dvokrevetna soba</option>
@@ -1448,7 +1448,7 @@
       </div>
       <div class="form-group">
         <label>Napomena</label>
-        <textarea placeholder="Posebni zahtevi ili napomena..."></textarea>
+        <textarea name="Napomena" placeholder="Posebni zahtevi ili napomena..."></textarea>
       </div>
       <button type="submit" class="btn-submit">Pošaljite upit</button>
     </form>
