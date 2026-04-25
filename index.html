@@ -1603,7 +1603,6 @@ document.addEventListener('keydown',e=>{
 
 // ── FORM ──
 function submitForm(e){
-  e.preventDefault();
   const dolaska = document.getElementById('datum-dolaska');
   const odlaska = document.getElementById('datum-odlaska');
   const minYear = 2026, maxYear = 2030;
@@ -1622,12 +1621,14 @@ function submitForm(e){
     return true;
   }
 
-  if (!validateDate(dolaska) || !validateDate(odlaska)) return;
+  if (!validateDate(dolaska) || !validateDate(odlaska)) {
+    e.preventDefault();
+    return;
+  }
 
   const btn=e.target.querySelector('.btn-submit');
   btn.textContent='Upit je poslat ✓';
   btn.style.background='#4a7c4e';
-  setTimeout(()=>{btn.textContent='Pošaljite upit';btn.style.background='';e.target.reset();},4000);
 }
 
 function checkDateYear(input) {
