@@ -1428,11 +1428,19 @@
       <div class="form-row">
         <div class="form-group">
           <label>Datum dolaska</label>
-          <input type="text" name="Datum dolaska" placeholder="dd.mm.yyyy" required />
+          <div style="display:flex;gap:8px;">
+            <input type="number" name="Dan dolaska" placeholder="Dan" min="1" max="31" style="flex:1;max-width:70px;" required />
+            <input type="number" name="Mesec dolaska" placeholder="Mesec" min="1" max="12" style="flex:1;max-width:70px;" required />
+            <input type="number" name="Godina dolaska" placeholder="Godina" min="2026" max="2030" style="flex:1;max-width:100px;" required />
+          </div>
         </div>
         <div class="form-group">
           <label>Datum odlaska</label>
-          <input type="text" name="Datum odlaska" placeholder="dd.mm.yyyy" required />
+          <div style="display:flex;gap:8px;">
+            <input type="number" name="Dan odlaska" placeholder="Dan" min="1" max="31" style="flex:1;max-width:70px;" required />
+            <input type="number" name="Mesec odlaska" placeholder="Mesec" min="1" max="12" style="flex:1;max-width:70px;" required />
+            <input type="number" name="Godina odlaska" placeholder="Godina" min="2026" max="2030" style="flex:1;max-width:100px;" required />
+          </div>
         </div>
       </div>
       <div class="form-group">
