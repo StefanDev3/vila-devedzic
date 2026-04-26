@@ -1428,11 +1428,11 @@
       <div class="form-row">
         <div class="form-group">
           <label>Datum dolaska</label>
-          <input type="date" id="datum-dolaska" name="Datum dolaska" min="2026-01-01" max="2030-12-31" required />
+          <input type="text" name="Datum dolaska" placeholder="dd.mm.yyyy" required />
         </div>
         <div class="form-group">
           <label>Datum odlaska</label>
-          <input type="date" id="datum-odlaska" name="Datum odlaska" min="2026-01-01" max="2030-12-31" required />
+          <input type="text" name="Datum odlaska" placeholder="dd.mm.yyyy" required />
         </div>
       </div>
       <div class="form-group">
@@ -1590,48 +1590,11 @@ document.addEventListener('keydown',e=>{
 
 // ── FORM ──
 function submitForm(e){
-  const dolaska = document.getElementById('datum-dolaska');
-  const odlaska = document.getElementById('datum-odlaska');
-  const minYear = 2026, maxYear = 2030;
-
-  function validateDate(input) {
-    const val = input.value;
-    if (!val) return true;
-    const d = new Date(val);
-    const y = d.getFullYear();
-    if (y < minYear || y > maxYear) {
-      input.setCustomValidity('Godina mora biti između ' + minYear + ' i ' + maxYear + '.');
-      input.reportValidity();
-      return false;
-    }
-    input.setCustomValidity('');
-    return true;
-  }
-
-  if (!validateDate(dolaska) || !validateDate(odlaska)) {
-    e.preventDefault();
-    return;
-  }
-
   const btn=e.target.querySelector('.btn-submit');
   btn.textContent='Upit je poslat ✓';
   btn.style.background='#4a7c4e';
 }
 
-function checkDateYear(input) {
-  const val = input.value;
-  if (!val) return;
-  const y = parseInt(val.split('-')[0]);
-  if (y < 2026 || y > 2030) {
-    input.setCustomValidity('Godina mora biti između 2026 i 2030.');
-    input.reportValidity();
-    input.value = '';
-  } else {
-    input.setCustomValidity('');
-  }
-}
-document.getElementById('datum-dolaska').addEventListener('change', function(){ checkDateYear(this); });
-document.getElementById('datum-odlaska').addEventListener('change', function(){ checkDateYear(this); });
 </script>
 </body>
 </html>
